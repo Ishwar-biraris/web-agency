@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/Montserrat/Montserrat-VariableFont_wght.ttf");
+  font-display: swap;
+}
+
+*{
+    font-family: Montserrat;
+}
+
+body{
+    /* background-color: #F0EBE6; */
+    /* background-color: #d1ffffc2; */
+}

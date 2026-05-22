@@ -1,0 +1,45 @@
+
+
+@font-face {
+  font-family: "PoppinsCustom";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf")
+    format("truetype");
+}
+
+
+
+.abtPage{
+    padding: 80px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.abthead{
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.abtMain{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.abtEnd{
+    font-size: 25px;
+    margin-top: auto;
+}
+
+.changingWord, .cw2, .cw3, .cw4, .cw5, .cw6{
+    display: inline-block;
+    line-height: 0%;
+    font-family: "PoppinsCustom";
+    font-style: italic;
+    font-weight: 600;
+}
+
+.cw2, .cw3, .cw4, .cw5, .cw6{
+    font-style: italic;
+    font-weight: 500;
+}
+

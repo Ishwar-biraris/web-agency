@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body, html{
+    overflow-x:hidden;
+}
+
+/* Font */
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/Montserrat/Montserrat-VariableFont_wght.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Epilogue";
+  src: url("https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/68370ddd06d737200122a835_Epilogue-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.hero-works-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.bgGradient {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse 150% 55% at 50% 110%, #e879f9 0%, transparent 65%),
+    linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+    transform: scaleY(-1);
+}
+
+
+/* Hero section */
+.hero{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+
+.hero p{
+    font-size: clamp(0.9rem, 2vw, 2rem);
+    text-align: center;
+}
+
+/* Heading */
+.hero h1{
+    margin: 0 auto;
+    margin-top: 25vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: clamp(2rem, 5vw, 4rem); /* responsive font */
+    line-height: 1.2;
+    max-width:1200px;
+    max-width: clamp(300px, 85vw, 1200px);
+    width:100%;
+}
+
+.cta{
+    margin-top: 4vh;
+    padding: 10px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+}
+/* Emphasis */
+
+/* Highlight blocks */
+.highlight{
+    display: inline-block;
+    height: 0.75em; /* proportional to text */
+    width: 1.2em;
+    background-color: rgb(255, 255, 0);
+    margin: 0 0.3em;
+    padding-bottom: 0.1em;
+    border-radius: 3px;
+}
+
+/*    */
+
+.works h1{
+    font-size: 64px;
+    font-weight: 800;
+}
+.works p{
+    position: relative;
+    text-align: center;
+    font-size: clamp(0.9rem, 2vw, 2rem);
+    padding: 0 20px;
+    margin-bottom: 10vh;
+}
