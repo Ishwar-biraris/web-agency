@@ -19,16 +19,10 @@ body, html{
 /* Font */
 @font-face {
   font-family: 'Montserrat';
-  src: url("/Montserrat/Montserrat-VariableFont_wght.ttf");
+  src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.woff2");
   font-display: swap;
 }
-@font-face {
-  font-family: "Epilogue";
-  src: url("https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/68370ddd06d737200122a835_Epilogue-Black.woff2") format("woff2");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
+
 
 
 .hero-works-wrapper {

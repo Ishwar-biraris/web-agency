@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: "PoppinsCustom";
-  src: url("/fonts/Poppins/Poppins-Regular.ttf")
-    format("truetype");
+  src: url("/fonts/Poppins/Poppins-Regular.woff2")
+    format("woff2");
 }
 
 
