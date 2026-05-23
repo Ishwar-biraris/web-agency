@@ -15,7 +15,7 @@ export const StaggeredMenu = ({
   displaySocials = true,
   displayItemNumbering = true,
   className,
-  logoUrl = '/src/assets/logos/reactbits-gh-white.svg',
+  logoUrl = '/images/logos/logo.webp',
   menuButtonColor = '#fff',
   openMenuButtonColor = '#fff',
   accentColor = '#5227FF',
@@ -460,7 +460,7 @@ useEffect(() => {
       <header className={`staggered-menu-header ${scrolled ? "scrolled" : ""}`} aria-label="Main navigation header">
         <div className="sm-logo" aria-label="Logo">
           <img
-            src={logoUrl || 'public/images/logos/logo.png'}
+            src={logoUrl || '/images/logos/logo.webp'}
             alt="Logo"
             className="sm-logo-img"
             draggable={false}

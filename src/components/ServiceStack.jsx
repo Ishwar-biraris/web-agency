@@ -1,7 +1,5 @@
 
 
-
-
 import React, { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import "./ServiceStack.css";
@@ -30,7 +28,7 @@ const services = [
     mobileRotate: -2,
     x: 20,
     y: -16,
-    image: "/images/stack1.png",   // 👈
+    image: "/images/stack1.webp",   // 👈
     items: ["Custom Modern Websites", "Fast, Responsive, Mobile-first", "Built for conversions"],
   },
   {
@@ -40,7 +38,7 @@ const services = [
     mobileRotate: 1,
     x: 230,
     y: 16,
-    image: "/images/ecommerce.png",         // 👈
+    image: "/images/ecommerce.webp",         // 👈
     items: ["Shopify, WooCommerce setup", "Product pages optimized for sales", "Payment & shipping integration"],
   },
   {
@@ -50,7 +48,7 @@ const services = [
     mobileRotate: -1,
     x: 440,
     y: -16,
-    image: "images/stack3.png",     // 👈
+    image: "images/stack3.webp",     // 👈
     items: ["High-converting single pages", "Campaign / ad-focused pages", "Lead generation design"],
   },
   {
@@ -60,7 +58,7 @@ const services = [
     mobileRotate: 2,
     x: 650,
     y: 16,
-    image: "/images/stack4.png",        // 👈
+    image: "/images/stack4.webp",        // 👈
     items: ["Improve UI/UX", "Better CTA placements"],
   },
   {
@@ -70,7 +68,7 @@ const services = [
     mobileRotate: -3,
     x: 860,
     y: -16,
-    image: "/images/stack5.png",       // 👈
+    image: "/images/stack5.webp",       // 👈
     items: ["Monthly Updates & Bug fixes", "Speed optimization", "Security & backups"],
   },
 ];

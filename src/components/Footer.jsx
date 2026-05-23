@@ -25,7 +25,7 @@ const Footer = () => {
         <p className="footer-cta">Let's talk</p>
         <img
           className="footer-logo"
-          src="public/images/web atomic logo.png"
+          src="public/images/web atomic logo.webp"
           alt="Web Atomic Logo"
         />
       </div>
