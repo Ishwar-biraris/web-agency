@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -38,9 +38,9 @@ const Footer = () => {
           <a href="tel:123456789" className="footer-col-value">9552931095</a>
           <nav className="footer-nav">
             <p className="footer-nav-heading">Go to</p>
-            <a href="/">/Home</a>
+            <Link to="/">/Home</Link>
             <button onClick={() => scrollTo("contact")}>/Contact</button>
-            <a href="/about">/About</a>
+            <Link to="/about">/About</Link>
             <button onClick={() => scrollTo("services")}>/Services</button>
           </nav>
         </div>
