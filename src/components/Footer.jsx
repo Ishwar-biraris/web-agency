@@ -47,7 +47,7 @@ const Footer = () => {
 
         <div className="footer-col">
           <span className="footer-col-label">Email us</span>
-          <a href="mailto:example@gmail.com" className="footer-col-value">example@gmail.com</a>
+          <a href="mailto:webatomiclab@gmail.com" className="footer-col-value">webatomiclab@gmail.com</a>
           <nav className="footer-nav">
             <p className="footer-nav-heading">Stay updated with our latest work.</p>
             <a href="https://instagram.com" target="_blank" rel="noreferrer">/Instagram</a>
